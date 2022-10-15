@@ -6,16 +6,30 @@
 
 int main(void)
 {
-	int b;
+	int b, c;
 
-	for (b = 0; b < 100; b++)
+	b = 48;
+	c = 48;
+
+	while (c < 58)
 	{
-		putchar((b / 10) + '0');
-		putchar((b % 10) + '0');
+		b = 48;
+		while (b < 58)
 		{
-			putchar(',');
-			putchar(' ');
+			if (c != b && c < b)
+			{
+				putchar(c);
+				putchar(b);
+				if (b == 57 && c == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			b++;
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
