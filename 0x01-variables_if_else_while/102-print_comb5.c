@@ -15,14 +15,15 @@ int main(void)
 		{
 			putchar((h / 10) + '0');
 			putchar((h % 10) + '0');
+
 			putchar(' ');
+
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-			if (h + i > 0)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			if (h == 98 && i == 99)
+				break;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
