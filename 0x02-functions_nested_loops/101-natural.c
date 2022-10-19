@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Prints natural number below 1024 that are
  * multiples of 3 or 5
