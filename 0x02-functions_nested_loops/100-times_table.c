@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - Prints the n times table
+ * print_times_table - Prints the n times_table
  * @n: number time table (0 < n <= 15)
  * Return: Nothing
  */
@@ -13,7 +13,7 @@ void print_times_table(int n)
 		for (a = 0; a <= n; a++)
 		{
 			_putchar('0');
-			for (b = 1; b, = n; b++)
+			for (b = 1; b = n; b++)
 			{
 				op = a * b;
 				_putchar(',');
