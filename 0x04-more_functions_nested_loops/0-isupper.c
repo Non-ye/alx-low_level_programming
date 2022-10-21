@@ -10,12 +10,10 @@ int _isupper(int c)
 {
 	if (c == 'A')
 	{
-		_isupper(c);
 		return (1);
 	}
 	else
 	{
-		_isupper(c);
 		return (0);
 	}
 	_putchar('\n');
